@@ -1,0 +1,24 @@
+graph TD
+    A[Starting Materials]
+    B[Catalyst Preparation Process]
+    C[Catalyst Characterization]
+
+    A --> A1[Cyclohexane - Phillips' Research Grade]
+    A --> A2[Other Chemicals - Reagent Grade]
+
+    B --> B1[Alumina Ground to -100 +200 Mesh]
+    B --> B2[Alumina Dried in Oxygen Stream at 500°C for 1 hr]
+    B --> B3[Alumina Kept Dry Until Impregnation]
+    B --> B4[Impregnation of Alumina Powder]
+        B4 --> B4a[Mix Alumina Powder with Excess H2PtCl6 Solution]
+        B4 --> B4b[Contact for Required Length of Time]
+        B4 --> B4c[Remove Solution for Analysis]
+    B --> B5[Catalyst Drying and Calcination]
+        B5 --> B5a[Drain Off Excess Liquid]
+        B5 --> B5b[Remove Superficial Liquid with Absorbent Paper]
+        B5 --> B5c[Dry Catalyst at 120°C for 18 hr in Air]
+        B5 --> B5d[Calcine Catalyst at 500°C in N2 (20 min) and H2 (2 hr)]
+        B5 --> B5e[Resize Catalyst to -100 +200 Mesh When Cool]
+
+    C --> C1[Minimize Non-Uniform Distribution of Pt]
+        C1 --> C1a[H2PtCl6 Reacts with and Deposits on First Part of Particle Encountered]
